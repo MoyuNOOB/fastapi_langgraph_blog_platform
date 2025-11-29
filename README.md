@@ -63,3 +63,11 @@ cd blog_platform/backend
 conda activate env2 
 pip install -r requirements.txt
 ```
+
+## 致谢
+
+后端项目 `blog_platform/backend` 基于开源项目
+[fastapi_tortoise_mysql](https://gitee.com/itestxs/fastapi_tortoise_mysql) 二次开发，
+原作者为 xiaowu，遵循 MIT License。
+
+本仓库保留原项目的 LICENSE，并在此基础上优化了注册登录，增加了个人博客管理，agent审稿等功能。
