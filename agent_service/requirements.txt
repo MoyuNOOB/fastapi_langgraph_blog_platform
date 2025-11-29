@@ -1,0 +1,16 @@
+fastapi==0.122.0
+uvicorn[standard]==0.38.0
+
+# LLM & Agent
+langgraph==1.0.4
+langchain-core==1.1.0
+langchain-openai==1.1.0
+
+# OpenAI 兼容客户端
+openai==2.8.1
+tiktoken==0.12.0
+
+# Prompts / 工具
+python-dotenv==1.0.1
+httpx==0.27.2
+pydantic==2.12.5
